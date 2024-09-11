@@ -24,7 +24,6 @@ const Footer = () => {
             <FaInstagram />
             <FaTwitter />
             <FaFacebook />
-            <FaTwitter />
         </div>
         </motion.div>
     </footer>
