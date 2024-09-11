@@ -67,7 +67,7 @@ const Menus =() => {
                         className="w-[60px] mb-4 scale-110 transform -translate-y-6"/>
 
                         <div>
-                            <h1 className="text-lg font-semibold bg-gray-950">{menu.title}</h1>
+                            <h1 className="text-lg font-semibold text-gray-950">{menu.title}</h1>
                             <p className="text-lg font-semibold text-secondary ">{menu.price}</p>
                         </div>
                     </motion.div>
