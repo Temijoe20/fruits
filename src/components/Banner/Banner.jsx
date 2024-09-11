@@ -26,7 +26,7 @@ const Banner =() => {
                         initial="hidden"
                         whileInView="visible"
                         viewport={ {once: true} }
-                        className="text-3xl lg:text-6xl font-bold uppercase text-gray-950">
+                        className="text-3xl lg:text-5xl font-bold uppercase text-gray-950">
                             {" "} BRAND INFO</motion.h1>
                         <motion.p
                         variants={FadeUp(0.7)}
