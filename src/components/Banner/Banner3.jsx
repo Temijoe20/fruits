@@ -28,7 +28,7 @@ const Banner3 =() => {
                         viewport={{ once: true }}
                         className="text-3xl lg:text-6xl font-bold uppercase text-gray-950"
                         >
-                            {" "} GET FRESH FRUITS TODAY
+                            {" "} GET FRESH <br /> FRUITS TODAY
                             </motion.h1>
                         <motion.p
                         variants={FadeLeft(0.7)}

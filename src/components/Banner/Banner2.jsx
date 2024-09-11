@@ -16,7 +16,7 @@ const Banner2 =() => {
                         whileInView="visible"
                         viewport={ {once: true} }
                         className="text-3xl lg:text-6xl font-bold uppercase text-gray-950">
-                            {" "} ONLINE FRUIT STORE</motion.h1>
+                            {" "} ONLINE <br /> FRUIT STORE</motion.h1>
                         <motion.p
                         variants={FadeUp(0.7)}
                         initial="hidden"
