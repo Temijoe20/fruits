@@ -22,14 +22,14 @@ const Hero =() => {
                         animate="visible"
                         className="text-5xl lg:text-6xl font-bold leading-relaxed xl:leading-loose font-averia text-gray-950">
                             Healthy
-                            <br />
+                            {/* <br /> */}
                             Fresh <span className="text-secondary">Fruits!</span>
                              </motion.h1>
                              <motion.p
                                 variants={FadeRight(0.9)}
                                 initial="hidden"
                                 animate="visible"
-                                className="text-2xl tracking-wide">Order Now for Fresh Healthy Life
+                                className="text-2xl tracking-wide text-gray-950">Order Now for Fresh Healthy Life
                                 </motion.p>
                              <motion.p 
                                 variants={FadeRight(1.2)}

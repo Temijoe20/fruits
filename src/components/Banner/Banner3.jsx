@@ -26,7 +26,7 @@ const Banner3 =() => {
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
-                        className="text-3xl lg:text-6xl font-bold uppercase text-gray-950"
+                        className="text-3xl lg:text-5xl font-semibold uppercase text-gray-950"
                         >
                             {" "} GET FRESH <br /> FRUITS TODAY
                             </motion.h1>
