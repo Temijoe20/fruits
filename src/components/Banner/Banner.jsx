@@ -26,13 +26,14 @@ const Banner =() => {
                         initial="hidden"
                         whileInView="visible"
                         viewport={ {once: true} }
-                        className="text-3xl lg:text-6xl font-bold uppercase">
+                        className="text-3xl lg:text-6xl font-bold uppercase text-gray-950">
                             {" "} Brand Info</motion.h1>
                         <motion.p
                         variants={FadeUp(0.7)}
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
+                        className="text-gray-950"
                         > Crisp and sweet, red apples are rich in fiber and antioxidants,
                          promoting heart health and aiding digestion
                          Juicy and tangy, oranges are high in vitamin C,
@@ -45,8 +46,11 @@ const Banner =() => {
                            variants={FadeUp(0.9)}
                            initial="hidden"
                            whileInView="visible"
-                           viewport={{ once: true }}>Red apples, oranges, avocados, and cherries are nutrient-rich fruits that offer antioxidants,
-                             vitamins, and healthy fats, promoting overall health and wellness.</motion.p>
+                           viewport={{ once: true }}
+                            className="text-gray-950">Red apples, oranges, avocados, and cherries are nutrient-rich fruits that offer antioxidants,
+                             vitamins, and healthy fats, promoting overall health and wellness.
+                             
+                             </motion.p>
                               <motion.div 
                                 variants={FadeUp(1.5)}
                                 initial="hidden"
