@@ -14,7 +14,7 @@ import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-    <div className='overflow-x-hidden bg-white'>
+    <div className='overflow-x-hidden'>
     <Navbar />
     <HeroSection />
     <Menus />

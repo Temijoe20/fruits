@@ -20,7 +20,7 @@ const Hero =() => {
                         variants={FadeRight(0.6)}
                         initial="hidden"
                         animate="visible"
-                        className="text-5xl lg:text-6xl font-bold leading-relaxed xl:leading-loose font-averia">
+                        className="text-5xl lg:text-6xl font-bold leading-relaxed xl:leading-loose font-averia text-gray-950">
                             Healthy
                             <br />
                              
