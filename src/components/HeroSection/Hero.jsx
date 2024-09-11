@@ -23,8 +23,7 @@ const Hero =() => {
                         className="text-5xl lg:text-6xl font-bold leading-relaxed xl:leading-loose font-averia text-gray-950">
                             Healthy
                             <br />
-                             
-                                Fresh <span className="text-secondary">Fruits!</span>{" "}
+                            Fresh <span className="text-secondary">Fruits!</span>
                              </motion.h1>
                              <motion.p
                                 variants={FadeRight(0.9)}

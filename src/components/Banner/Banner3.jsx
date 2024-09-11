@@ -28,7 +28,7 @@ const Banner3 =() => {
                         viewport={{ once: true }}
                         className="text-3xl lg:text-6xl font-bold uppercase text-gray-950"
                         >
-                            {" "} Brand Info
+                            {" "} GET FRESH FRUITS TODAY
                             </motion.h1>
                         <motion.p
                         variants={FadeLeft(0.7)}
@@ -50,7 +50,6 @@ const Banner3 =() => {
                         >
                         Crisp and sweet, red apples are rich in fiber and antioxidants,
                          promoting heart health and aiding digestion
-                         Juicy and tangy, oranges are high in vitamin C,
                         </motion.p>
                             {/* Button section */}
                               <motion.div 

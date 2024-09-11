@@ -27,7 +27,7 @@ const Banner =() => {
                         whileInView="visible"
                         viewport={ {once: true} }
                         className="text-3xl lg:text-6xl font-bold uppercase text-gray-950">
-                            {" "} Brand Info</motion.h1>
+                            {" "} BRAND INFO</motion.h1>
                         <motion.p
                         variants={FadeUp(0.7)}
                         initial="hidden"
@@ -38,10 +38,7 @@ const Banner =() => {
                          promoting heart health and aiding digestion
                          Juicy and tangy, oranges are high in vitamin C,
                           boosting immunity and supporting skin health
-                          Creamy and nutrient-dense, avocados are a great source of healthy fats, potassium
-                          , and vitamins, supporting heart and brain health
-                          Sweet or tart, cherries are packed with antioxidants,
-                           reducing inflammation and supporting sleep through melatonin content</motion.p>
+                          </motion.p>
                            <motion.p
                            variants={FadeUp(0.9)}
                            initial="hidden"
